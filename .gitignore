@@ -1,0 +1,5 @@
+# do NOT include *.html files
+*.html
+
+# do NOT include __pycache__ folder
+__pycache__/
