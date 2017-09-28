@@ -15,6 +15,7 @@ File(s):
     entertainment_center.py , media.py, fresh_tomatoes.py
 """
 
+
 class Movie():
     """
     A class describing properties and methods of a Movie instance.
@@ -31,9 +32,9 @@ class Movie():
 
             Example(s):
                 title - 'The Godfather'
-                art - 'https://vignette3.wikia.nocookie.net/mafia/images/b/b8/The-godfather.jpg/revision/latest?cb=20080922232324'
+                art - 'https://vignette3.wikia.nocookie.net/mafia/images/b/b8/The-godfather.jpg/revision/latest?cb=20080922232324'  # NOQA
                 trailer - 'https://youtu.be/sY1S34973zA'
         """
-        self.title = title;
-        self.poster_image_url = art;
-        self.trailer_youtube_url = trailer;
+        self.title = title
+        self.poster_image_url = art
+        self.trailer_youtube_url = trailer

@@ -15,31 +15,35 @@ File(s):
     entertainment_center.py , media.py, fresh_tomatoes.py
 """
 
+
 # Loading necessary module components.
 from media import Movie
 from fresh_tomatoes import open_movies_page
 
+
 # Instantiating three objects of type Movie.
-movieYourHighness = Movie(
+movie_your_highness = Movie(
     "Your Highness",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Your_Highness_Poster.jpg/220px-Your_Highness_Poster.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Your_Highness_Poster.jpg/220px-Your_Highness_Poster.jpg",  # NOQA
     "https://youtu.be/FplWxtPzWY8"
     )
 
-movieHackers = Movie(
+movie_hackers = Movie(
     "Hackers",
     "https://uk.movieposter.com/posters/archive/main/79/MPW-39928",
     "https://youtu.be/Rn2cf_wJ4f4"
     )
 
-movieHacksawRidge = Movie(
+movie_hacksaw_ridge = Movie(
     "Hacksaw Ridge",
     "https://upload.wikimedia.org/wikipedia/en/8/8a/Hacksaw_Ridge_poster.png",
     "https://youtu.be/s2-1hz1juBI"
     )
 
-# Creating a list to hold created movies above.
-movies = [movieYourHighness, movieHackers, movieHacksawRidge]
 
-# Generating .html file
+# Creating a list to hold created movies above.
+movies = [movie_your_highness, movie_hackers, movie_hacksaw_ridge]
+
+
+# Generating .html fil
 open_movies_page(movies)
